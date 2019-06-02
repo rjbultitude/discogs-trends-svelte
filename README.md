@@ -2,6 +2,7 @@
 
 ## Project Introduction
 Gain insight into the commercial world of hard format records
+Special note: this is an alternative version of an app being built in React that uses Svelte instead.
 
 ## Installation
 
