@@ -1,0 +1,29 @@
+{
+  "name": "discog-trends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=develop node ./index.js",
+    "build": "rollup -c",
+    "test": "test"
+  },
+  "author": "Richard Bultitude",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "disconnect": "^1.2.1",
+    "express": "^4.16.4",
+    "express-middleware-rollup": "^2.0.0",
+    "helmet": "^3.17.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^1.13.1",
+    "rollup-plugin-node-resolve": "^5.0.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "svelte": "^3.4.2"
+  }
+}
