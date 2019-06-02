@@ -3,10 +3,10 @@
 
   export let id;
   export let selectOptions;
-  //export let changeCB;
+  export let changeCB;
 </script>
 
-<select id={id}>
+<select id={id} on:change={changeCB}>
   {#each selectOptions as selectOption}
     <option>{selectOption}</option>
   {/each}
