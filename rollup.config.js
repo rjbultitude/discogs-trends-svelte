@@ -7,6 +7,7 @@ export default {
     file: 'dist/app.js',
     format: 'iife',
     name: 'app',
+    sourcemap: true,
   },
   plugins: [
     svelte({
