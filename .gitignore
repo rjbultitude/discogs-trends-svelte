@@ -26,6 +26,9 @@
 # Packages
 node_modules/
 
+# Reports
+/reports/
+
 # Others
 sql/
 __MACOSX/

@@ -7,7 +7,7 @@
     "start": "NODE_ENV=develop node ./index.js",
     "build": "rollup -c",
     "test": "test",
-    "budget": "lighthouse localhost:8080 --budget-path=budget.json"
+    "budget": "lighthouse https://reverent-brattain-bcdc98.netlify.com --budget-path=budget.json --output-path=./reports/budget"
   },
   "author": "Richard Bultitude",
   "license": "ISC",
